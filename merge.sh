@@ -1,4 +1,4 @@
-for file in test/STEC_14-18_fsm_kmers.txt.gz test/STEC_19_fsm_kmers.txt.gz
+for file in raw-data/STEC_14-18_fsm_kmers.txt.gz raw-data/STEC_19_fsm_kmers.txt.gz
 do
     echo -n "merging $file.part* > $file"
     cat $file.part* > $file
